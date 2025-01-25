@@ -1,72 +1,105 @@
-//Assignment operator
-// let x = 10;
+/*
+
+2.comparison operator
+3.Arithmetic opperator
+4.
+*/
+//Assignment operators
+// let x=10;
 // let y;
-// y = x;
-// comsole.log("y", y);
+// y=x;
+// console.log(y);
 
-// let x = 50;
+// let a = 10;
+// let b = 30;
+// a = b;
+// console.log(a);
+
+//compound operator
+// let x = 10;
 // let y = 20;
-// x += y;
-// x -= y;
-// x *= y;
-// x /= y;
+
+//x = x+y;
+//x +=y;
+//console.log(x);
+
+//Aritymetic operator
+// let x= 10;
+// x = x+1;
+// console.log(x);
+// x = x**2;
 // console.log(x);
 
-// let x = 50;
-//x = x + 1;
-//x += 1;
-// x++;
-// console.log(x);
+//logical operator
+/*
+logical AND &&
 
-//logical AND &&
-// let happy = true && true;
-// console.log(happy);
+*/
+//let happy = true && false;
+//console.log(happy);
 
-// const isLoggesIn = true;
+// const isloggedin = true;
 // const hasPermission = false;
 
-// if (isLoggesIn && hasPermission) {
-//   console.log("successfull");
-// } else {
-//   console.log("unsuccessfull");
+// if(isloggedin && hasPermission){
+//     console.log("user is authorized");    
+// }
+// else{
+//     console.log("not authorized");
+    
 // }
 
-//logical OR ||
+// const authorized = isloggedin && hasPermission;
+// console.log(authorized);
 
-// const happy = true;
-// const sad = false;
-// if (happy || sad) {
-//   console.log("successfully");
-// } else {
-//   console.log("unsuccessful");
+
+//logical NOT !
+
+//const happy = true;
+//console.log(!happy);
+
+// const isLoggesin = false;
+// if(!isLoggesin){
+//     console.log("User is not loggedin")
+// }
+// else{
+//     console.log("redirect to login page");
+    
 // }
 
-//logical NOT
+//conditional operator(ternary opertaor)
 
-// const happy = true;
-// console.log(!happy);
+//const userRole = "admink";
 
-// const animal = "Dog";
-// console.log(!animal);
-
-// const isLoggesIn = true;
-//const hasPermission = false;
-
-// if (!isLoggesIn) {
-//   console.log("successfull");
-// } else {
-//   console.log("unsuccessfull");
+// if(userRole === "admin"){
+//     console.log("you are admin");
+    
+// }
+// else{
+//     console.log("you are not admin");
+    
 // }
 
-//conditional operator(ternary operator)
+//userRole === "admin"? console.log("you are admin") :console.log("you are not admin");
 
-const userRole = "admin";
 
-// if (userRole === "admin") {
-//   console.log("admin");
-// } else {
-//   console.log("not admin");
+//comparison operator
+
+// const a = true;
+// const b = false;
+
+// if(a!=b){
+//     console.log("This is not equal");
+    
+// }
+// else{
+//     console.log("this is absoulutely equal");
+    
 // }
 
-userRole = "admin" ? "you are admin" : "you are not an admin";
-console.log(userRole);
+
+//console.log(3>2 && 1>1);
+
+console.log(3>2>=1);
+//console.log(true>1)
+//console.log(1>1)
